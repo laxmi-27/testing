@@ -11,7 +11,7 @@ pipeline {
 
         stage('Run App') {
             steps {
-                bat 'python app.py'
+                bat '"C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python312\\python.exe" app.py'
             }
         }
     }
